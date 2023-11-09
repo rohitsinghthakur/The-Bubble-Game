@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pannel {
+  border: 2px solid;
+  height: 80vh;
+  width: 80vw;
+}
+.pannel .header {
+  border: 2px solid violet;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 60px;
+  height: 15%;
+  background-color: #0f9fc5;
+  color: #ffff;
+}
+.pannel .header .hit,
+.time,
+.score {
+  display: flex;
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header .hit .hit-box,
+.time-box,
+.score-box {
+  background-color: #fff;
+  color: black;
+  padding: 5px;
+  height: 30px;
+  width: 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* bubble are is strated from here */
+
+.pannel .bubble-area {
+  padding: 10px;
+  border: 2px solid green;
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.bubble-area .bubble {
+  background-color: green;
+  height: 4vw;
+  width: 4vw;
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+.bubble-area .bubble:hover {
+  font-size: 25px;
+}
+@media (max-width: 700px) {
+    
+    .header>div{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+   
+ 
+    .bubble-area .bubble {
+    height: 30px;
+    width: 30px;
+  }
+
+}
