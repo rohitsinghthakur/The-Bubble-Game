@@ -75,8 +75,11 @@ body {
 }
 .bubble-area .bubble {
   background-color: green;
-  height: 4vw;
-  width: 4vw;
+  height: 50px;
+  width:  50px;
+  font-size: 18px;
+  /* height: 4vw;
+  width: 4vw; */
   color: #ffff;
   display: flex;
   justify-content: center;
@@ -84,6 +87,7 @@ body {
   border-radius: 50%;
   transition: all 0.2s;
 }
+
 .bubble-area .bubble:hover {
   font-size: 25px;
   cursor: pointer;
@@ -125,11 +129,14 @@ body {
 
 footer{
   /* background-color: #222; */
-  width: 80vw;
-  height: 10vh;
+  width: 80%;
+  margin-bottom: 20px;
+
   position: absolute;
   bottom: 0;
   padding: 0 20px;
+  /* background-color: red; */
+
 
 }
 
@@ -153,20 +160,30 @@ list-style: none;
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
     
     .header div{
       flex-direction: column;
     }
+    .pannel{
+      width: 95vw;
+      margin-top:-30px;
+    }
     .pannel .header{
       padding: 5px 30px;
-      
+            
     }
    
  
     .bubble-area .bubble {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width:  40px;
+  }
+.links{
+  font-size: 20px;
+}
+  .links span {
+    display: none;
   }
 
 }
