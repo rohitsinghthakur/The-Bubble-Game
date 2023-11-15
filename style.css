@@ -182,7 +182,7 @@ list-style: none;
 .links{
   font-size: 20px;
 }
-  .links span {
+  .links li p {
     display: none;
   }
 
