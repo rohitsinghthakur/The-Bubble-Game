@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-/*   background-color: #8accde; */
+  background-color: #8accde;
 
 }
 .pannel {
@@ -126,7 +126,7 @@ body {
 footer{
 /*   background-color: #222; */
   width: 80%;
-/*   margin-bottom: 20px; */
+  margin-bottom: 20px;
 
   position: absolute;
   bottom: 0;
@@ -175,8 +175,13 @@ list-style: none;
     height: 40px;
     width:  40px;
   }
+
+  footer{
+    margin:0;
+    padding:0;
+  }
 .links{
-  font-size: 20px;
+  font-size: 30px;
 }
   .links span {
     display: none;
