@@ -182,11 +182,8 @@ list-style: none;
 .links{
   font-size: 20px;
 }
-  .links li p {
+  .links span {
     display: none;
   }
 
 }
-
-
-/* updated 1 */
