@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #8accde;
+/*   background-color: #8accde; */
 
 }
 .pannel {
@@ -124,7 +124,7 @@ body {
 
 
 footer{
-  /* background-color: #222; */
+/*   background-color: #222; */
   width: 80%;
 /*   margin-bottom: 20px; */
 
