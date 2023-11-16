@@ -18,6 +18,12 @@ function create_bubble() {
     newBubble.classList.add("bubble");
     newBubble.innerText = rn;
     bubbleArea.appendChild(newBubble);
+
+     // add color
+    let red = Math.floor(Math.random() * 155);
+    let green = Math.floor(Math.random() * 155);
+    let blue = Math.floor(Math.random() * 155);
+    newBubble.style.backgroundColor = `rgb(${red},${blue},${green})` 
     
   }
 }
