@@ -179,6 +179,7 @@ list-style: none;
   footer{
     margin:0;
     padding:0;
+    display:none;
   }
 .links{
   font-size: 30px;
